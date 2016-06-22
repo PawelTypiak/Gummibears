@@ -1,15 +1,18 @@
 # Gummibears - object counter in OpenCV and C++
 
-"Gummibears" is a project in OpenCV and C++ that can be used to count the number of colorful Gummibears placed on the white piece of paper. 
+_Gummibears_ is a project in OpenCV and C++ that can be used to count the number of colorful gummibears placed on a white sheet of paper. 
+ <p align="center">
+  <img src="https://github.com/PawelTypiak/Gummibears/blob/master/OpenCVProject2/images/scena_004_ujecie_002.jpg" width="800" />
+  </p>
 
 #### Rules 
 - There are 5 colors of objects: dark red, light red, orange, green, yellow and white
 - There are 5 scenes and every scene have several images of every scene
 - There are 3 types of markers used to limit the area of counting bears. 
-- We can count only objects which are placed inside the markers. Markers' patterns can be found in the Other/markers.pdf
-- Names of pictures have to be downloaded from txt file placed in OpenCVProject2/images_names/images_names.txt
-- Images are placed in OpenCVProject2/images/
-- Results have to be saved in txt file placed in OpenCVProject2/results/results.txt
+- We can count only objects which are placed inside the markers. Markers' patterns can be found in [markers.pdf](https://github.com/PawelTypiak/Gummibears/blob/master/markers.pdf)
+- Names of pictures have to be downloaded from txt file placed in  [OpenCVProject2/images_names/images_names.txt](https://github.com/PawelTypiak/Gummibears/blob/master/OpenCVProject2/images_names/images_names.txt)
+- Images are placed in [OpenCVProject2/images/](https://github.com/PawelTypiak/Gummibears/tree/master/OpenCVProject2/images)
+- Results are saved in txt file placed in [OpenCVProject2/results/](https://github.com/PawelTypiak/Gummibears/tree/master/OpenCVProject2/results)
 - Number of objects in every scene:
 
  Scene/Color | Dark red | Light Red | Green | Orange | White | Yellow  
@@ -49,6 +52,8 @@
   * using median for objects found on every picture for current scene
   * results are printed on the screen and are saved in results.txt
   
+ #### Licensing
+_Gummibears_ is licensed under **_Apache 2.0_** license. You can read more about the terms of this license on the [web page](https://www.apache.org/licenses/LICENSE-2.0) or in [LICENSE.txt](/LICENSE.txt) file.
   
   
   
